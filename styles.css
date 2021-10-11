@@ -1,0 +1,72 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* Navigation Styles */
+
+nav {
+    background-color: violet;
+}
+
+ul {
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    list-style-type: none;
+    
+    display: inline;
+    margin: 0px 15px;
+}
+
+/* Content Container Styles */
+
+section#content-container {
+    display: flex;
+}
+
+/* Form Styles */
+
+form {
+    flex: 1;
+    background-color: royalblue;
+    text-align: center;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* Promo Styles */
+
+article {
+    flex: 1;
+    background-color: red;
+}

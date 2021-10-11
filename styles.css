@@ -10,21 +10,16 @@ html {
     background-color: white;
 }
 
-h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    padding: 1.25rem;
-}
-
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    margin: 30px 50px;
 }
 
 /* Navigation Styles (Header & Footer) */
 
 nav {
-    background-color: white;
+    background-color: #A1D8FF;
 }
 
 ul {
@@ -46,29 +41,91 @@ ul a {
 section#content-container {
     display: flex;
     align-items: center;
-    background-color: #A1D8FF;
 }
 
 /* Form Styles */
 
-form {
+article#form-container {
     flex: 1;
     text-align: center;
-    background-color: sienna;
+}
+
+form {
+    margin: 10rem;
+    padding: 1.5rem;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    padding: .75rem;
+    color: #023047;
 }
 
 label {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: .75rem;
+    margin: 30px 0;
+    color:#023047;
 }
 
-a#forgotpw {
+input#email, input#password{
+    width: 16rem;
+    height: 2rem;
+    margin: 10px 0;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #A1D8FF;
+    color: #023047;
+}
+
+input#login-button {
+    width: 10rem;
+    margin: 20px 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #023047;
+    font-weight: bold;
+    color: white;
+}
+
+#forgotpw {
     font-family: 'Roboto', sans-serif;
     font-size: .75rem;
+    margin: 20px 0;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #023047;
 }
 
 /* Promo Styles */
 
 article#promo {
     flex: 1;
+    text-align: center;
 }
+
+article img {
+    align-items: flex-end;
+}
+
+    /* Tablet Styles */
+
+    @media only screen and (max-width: 1024px) {
+
+    article#form-container {
+        flex: 1;
+        text-align: center;
+    }
+        
+    article#promo {
+        display: none;
+    }
+
+    section#copy-container {
+        border: 1px solid black;
+    }
+
+    }

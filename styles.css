@@ -13,6 +13,7 @@ html {
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
+    padding: 1.25rem;
 }
 
 p {
@@ -20,10 +21,10 @@ p {
     font-size: 1rem;
 }
 
-/* Navigation Styles */
+/* Navigation Styles (Header & Footer) */
 
 nav {
-    background-color: violet;
+    background-color: white;
 }
 
 ul {
@@ -31,27 +32,29 @@ ul {
     text-align: center;
 }
 
-li {
+ul a {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    list-style-type: none;
-    
+    font-size: 1rem;  
     display: inline;
     margin: 0px 15px;
+    text-decoration: none;
+    color: black;
 }
 
 /* Content Container Styles */
 
 section#content-container {
     display: flex;
+    align-items: center;
+    background-color: #A1D8FF;
 }
 
 /* Form Styles */
 
 form {
     flex: 1;
-    background-color: royalblue;
     text-align: center;
+    background-color: sienna;
 }
 
 label {
@@ -59,14 +62,13 @@ label {
     font-size: 1rem;
 }
 
-a {
+a#forgotpw {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 /* Promo Styles */
 
-article {
+article#promo {
     flex: 1;
-    background-color: red;
 }

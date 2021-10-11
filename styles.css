@@ -124,8 +124,44 @@ article img {
         display: none;
     }
 
-    section#copy-container {
-        border: 1px solid black;
     }
 
-    }
+        /* Mobile Styles */
+    
+        @media only screen and (max-width: 1284px) {
+
+            nav {
+                background-color: #A1D8FF;
+            }
+            
+            ul {
+                padding: 20px;
+                text-align: center;
+            }
+            
+            ul a {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1rem;  
+                display: inline;
+                margin: 0px 15px;
+                text-decoration: none;
+                color: black;
+            }
+
+            section#content-container {
+                display: flex;
+                align-items: flex-start;
+                overflow: hidden;
+            }
+
+            article#form-container {
+                flex: 1;
+                text-align: center;
+            }
+            
+            form {
+                margin: 2.5rem;
+                padding: 1.5rem;
+            }
+
+        }
